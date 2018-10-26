@@ -1,5 +1,5 @@
 {
-  "name": "botkit",
+  "name": "jack",
   "version": "0.6.18",
   "description": "Building blocks for Building Bots",
   "main": "lib/Botkit.js",
@@ -46,14 +46,15 @@
     "pretest": "jscs ./lib/ ./tests/lib ./tests/unit --fix",
     "test": "jest --coverage",
     "test-legacy": "mocha ./tests/legacy/*.mocha.js",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "start": "node ."
   },
   "bin": {
     "botkit": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit.git"
+    "url": "https://github.com/Numiz/botkit.git"
   },
   "bugs": {
     "url": "https://github.com/howdyai/botkit/issues"
